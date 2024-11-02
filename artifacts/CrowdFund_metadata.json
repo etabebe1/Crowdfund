@@ -14,7 +14,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "getEthPriceInUSD",
+				"name": "getEthPrice",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -40,15 +40,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "minAmount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -65,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Crowdfund.sol": "Crowdfund"
+			"Crowdfund.sol": "CrowdFund"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -88,11 +82,11 @@
 			]
 		},
 		"Crowdfund.sol": {
-			"keccak256": "0x56d876acc7f71d37ad26a6f4fb3fcad9ec5b78331eaaf8597f8ad8a1ffa44062",
+			"keccak256": "0x8a8da3f83ce68e0b9ab38c1d75271fbb4bb270076e48b5a5c2afc96a6840d35e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3d9ac13fb026a6d00f34988c9295243e5c60ea6cced7b36250b82cec14f2b6e6",
-				"dweb:/ipfs/QmRXX75M31BfMnistbjw81b9rdDvmBSBSQAMPy66QARHNx"
+				"bzz-raw://d6294cf83745647370f0293eae2347fdb1829e9cc74d73e973946d2afa58ddb0",
+				"dweb:/ipfs/QmcFy4rRtg1EdH1uhmKoLr59TAuw6q2igPGDTCTYsYJWvt"
 			]
 		}
 	},

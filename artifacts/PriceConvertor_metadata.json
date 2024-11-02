@@ -6,17 +6,48 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "fund",
-				"outputs": [],
-				"stateMutability": "payable",
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "minValue",
+						"type": "int256"
+					}
+				],
+				"name": "getConversionRate",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "withdarw",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "getEthPrice",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVersion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -33,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Crowdfund.sol": "CrowdFund"
+			"PriceConvertor.sol": "PriceConvertor"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,14 +84,6 @@
 			"urls": [
 				"bzz-raw://6d39e11b1dc7b9b8ccdabbc9be442ab7cda4a81c748f57e316dcb1bcb4a28bf9",
 				"dweb:/ipfs/QmaG6vz6W6iEUBsbHSBob5mdcitYxWjoygxREHpsJHfWrS"
-			]
-		},
-		"Crowdfund.sol": {
-			"keccak256": "0x23598addd44332d4f1fd9613e7658264974a08dc9b343f85e0cf3c3c8f988b17",
-			"license": "MIT",
-			"urls": [
-				"bzz-raw://b608707686ddfda7111beefcfc7e107a8d918a67e90322b82c39da262cb92ce9",
-				"dweb:/ipfs/QmSTma94TGxDi74ek8e2WsmWdP55MCbKdy8kUNjVqKKJKp"
 			]
 		},
 		"PriceConvertor.sol": {
